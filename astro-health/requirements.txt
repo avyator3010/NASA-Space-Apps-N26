@@ -1,0 +1,9 @@
+streamlit>=1.50
+plotly>=5.20
+pandas>=2.0
+numpy>=1.26
+# Camera module only (python camera_monitor.py):
+opencv-python>=4.9
+mediapipe>=0.10.14
+# Bluetooth trackers only (python tracker_ble.py):
+bleak>=0.22

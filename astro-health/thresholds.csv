@@ -1,0 +1,32 @@
+key,name,unit,hazard,scope,red_low,yellow_low,yellow_high,red_high,decimals,source
+heart_rate,Heart rate,bpm,Vitals,crew,40,51,90,131,0,NEWS2 (Royal College of Physicians)
+spo2,Blood oxygen (SpO2),%,Vitals,crew,91,96,,,1,NEWS2 (Royal College of Physicians)
+bp_systolic,Blood pressure (systolic),mmHg,Vitals,crew,90,111,219,220,0,NEWS2 (Royal College of Physicians)
+core_temp,Core body temperature,°C,Vitals,crew,35.0,36.1,38.0,,1,NEWS2 (Royal College of Physicians)
+resp_rate,Respiratory rate,breaths/min,Vitals,crew,8,12,20,25,0,NEWS2 (Royal College of Physicians)
+hrv_pct,Heart rate variability,% of baseline,Vitals,crew,60,80,,,0,Team's own bands (no standard limit exists)
+dose_rate,Radiation dose rate,mSv/day,Radiation,crew,,,1.0,1.3,2,NASA-STD-3001 Vol 1 s4.8 (shielding design target); yellow is team's own
+career_dose,Cumulative career dose,mSv,Radiation,crew,,,360,600,1,NASA-STD-3001 Vol 1 [V1 4030]; yellow is team's own
+spe_dose,Solar particle event dose,mSv,Radiation,crew,,,150,250,1,NASA-STD-3001 Vol 1 [V1 4031]; yellow is team's own
+neutron_rate,Neutron dose rate,mSv/day,Radiation,crew,,,,,2,Info only: no separate limit
+exercise_min,Daily exercise,min/day,Gravity,crew,60,120,,,0,Team's own bands; ISS crews average 2 h/day (NASA)
+bmd_change,Bone density change (hip and spine),% from pre-flight,Gravity,crew,-5,-3,,,1,NASA-STD-3001 Vol 1 [V1 4027]; yellow is team's own
+muscle_change,Muscle strength change,% from pre-flight,Gravity,crew,-20,-12,,,1,NASA-STD-3001 Vol 1 [V1 4024]; yellow is team's own
+aerobic_change,Aerobic capacity change,% from pre-flight,Gravity,crew,-20,-12,,,1,NASA-STD-3001 Vol 1 [V1 4003]; yellow is team's own
+body_mass_change,Body mass change,% from pre-flight,Gravity,crew,-10,-5,,,1,MUST screening tool (BAPEN) - to verify
+iop,Intraocular pressure (SANS),mmHg,Gravity,crew,,,21,30,1,Standard clinical normal range - to verify; red is team's own
+sleep_hours,Sleep duration,hours/night,Isolation,crew,6,7,,,1,Team's own bands; NASA recommends an 8.5 h sleep period
+sleep_efficiency,Sleep quality,% efficiency,Isolation,crew,75,85,,,0,National Sleep Foundation - to verify
+reaction_time,Reaction time (fatigue test),ms,Isolation,crew,,,350,500,0,500 ms PVT lapse threshold - to verify; yellow is team's own
+mood,Self-reported mood,score 1-10,Isolation,crew,3,7,,,0,Team's own bands
+perclos,Eye closure (PERCLOS),% of time,Isolation,crew,,,8,15,1,PERCLOS drowsiness metric - to verify
+co2,Cabin CO2,mmHg,Cabin,cabin,,,2.5,3.0,2,NASA-STD-3001 Vol 2 [V2 6004]; NASA brief OCHMO-TB-004
+o2,Cabin O2 (inspired),mmHg,Cabin,cabin,127,139,168,333,0,NASA-STD-3001 Vol 2 [V2 6003] rationale; check Table 6.2-1
+cabin_temp,Cabin temperature,°C,Cabin,cabin,18,20,25,27,1,NASA-STD-3001 Vol 2 [V2 6012] and [V2 6013]
+cabin_pressure,Cabin pressure,kPa,Cabin,cabin,34.5,96.2,103,103,1,NASA-STD-3001 Vol 2 [V2 6006]; yellow (5% under set point) is team's own
+humidity,Humidity,%,Cabin,cabin,25,30,60,75,0,NASA-STD-3001 Vol 2 [V2 6012] and [V2 6013]
+noise,Noise level (24 h average),dBA,Cabin,cabin,,,65,70,0,NASA-STD-3001 Vol 2 [V2 6115]; yellow is team's own
+hydration,Water intake,L/day,Distance,crew,1.5,2.0,,,1,Team's own bands; NASA provides at least 2.5 L/day [V2 6109]
+calorie_pct,Energy intake,% of need,Distance,crew,85,95,,,0,NASA-STD-3001 Vol 1 [V1 4020]; cut-offs are team's own
+med_supplies,Medical supplies margin,days beyond resupply,Distance,cabin,0,30,,,0,Team's own bands
+comms_delay,Comms delay (one way),seconds,Distance,cabin,,,,,1,Info only: no alarm
